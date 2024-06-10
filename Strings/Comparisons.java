@@ -2,8 +2,8 @@
 
 public class Comparison {
     public static void main(String[] args) {
-        String a = "Anshika";
-        String b = "Anshika";
+        String a = "Ansh";
+        String b = "Ansh";
         String c = a;
 //        System.out.println(c == a);
         // ==
