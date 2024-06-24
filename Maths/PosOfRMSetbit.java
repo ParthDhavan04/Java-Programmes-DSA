@@ -3,7 +3,7 @@
 //Method 1
 
 
-class Rightmost {
+class Rightmost{
     static int getFirstSetBitPos(int n)
     {
         return (int)((Math.log10(n & -n)) / Math.log10(2)) + 1; // log2 of the no, will get (position – 1)
