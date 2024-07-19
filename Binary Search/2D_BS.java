@@ -13,7 +13,7 @@ public class RowColMatrix {
         System.out.println(Arrays.toString(search(arr, 49)));
     }
 
-    static int[] search(int[][] matrix, int target) {
+    static int[] search(int[][] matrix, int target){
         int r = 0;
         int c = matrix[0].length - 1;
 
